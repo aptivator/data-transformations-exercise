@@ -9,7 +9,7 @@ export const dataPipeline = [{
   elementId: 'original',
   operation: identity
 }, {
-  elementId: 'flat-objects',
+  elementId: 'flattened-objects',
   operation: (data) => data.map((o) => flattenObject(o))
 }, {
   elementId: 'transformed-property',
