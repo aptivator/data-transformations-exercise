@@ -1,4 +1,4 @@
-## `data-transforms-exercise`
+## `data-transformations-exercise`
 
 Instructions for this exercise can be read [here](./INSTRUCTIONS.md).
 
