@@ -1,0 +1,27 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font: 10px/1 sans-serif;
+}
+
+#transformations {
+  display: flex;
+  padding: 1rem;
+}
+
+.transformation {
+  flex: 1;
+  font-size: 1.4rem;
+}
+
+.transformation h3 {
+  font-size: 1.6rem;
+}
+
+.transformation pre {
+  margin-top: 1rem;
+}
