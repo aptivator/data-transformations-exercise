@@ -9,13 +9,17 @@ html {
 }
 
 #transformations {
-  display: flex;
-  padding: 1rem;
+  display: table;
+  margin: 1rem auto;
 }
 
 .transformation {
-  flex: 1;
   font-size: 1.4rem;
+  display: table-cell;
+}
+
+.transformation + .transformation {
+  padding-left: 1rem;
 }
 
 .transformation h3 {
